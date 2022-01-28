@@ -7,16 +7,29 @@ import Footer from "../../layouts/Footer"
 import Breadcumb from '../../components/Breadcumb'
 import Image1 from "../../assets/img/test-img/download.png"
 import "./vision.css"
+import { useParams } from "react-router-dom";
+
+
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import ComNav from "../compNav/comNav"
 // import VisionImage from "../../assets/img/test-img/Vision"
 
 
 
 const Vision = () => {
-  
+      const routePath = useLocation();
+      const onTop = () => {
+        window.scrollTo(0, 4);
+      }
+      useEffect(() => {
+        onTop()
+      }, [routePath]);
+ 
+
   return (
     <>
-<ComNav/>
+<ComNav  />
 <Breadcumb  
                   namePage='Mind Map'
                   title='Vision '
@@ -55,6 +68,7 @@ beans to grow together, but it won't happen overnight.
       />
       </div>
       <Footer/>
+
     </>
   );
 };

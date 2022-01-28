@@ -33,9 +33,9 @@ function ListedItemsContainer(){
 	                	bid={item.bid}
 	                />
             	))}
-                <div className="col-12 col-lg-12 text-center">
+                {/* <div className="col-12 col-lg-12 text-center">
                     <NavLink className="btn more-btn" to="/discover">Load More</NavLink>
-                </div>
+                </div> */}
             </div>
             
         </div>

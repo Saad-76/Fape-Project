@@ -1,14 +1,26 @@
 
-import React from 'react';
+import {React,useEffect} from 'react';
 import SectionInfo from "../SectionInfo/sectionInfo"
 import {
 
 	ListedItemsArtwork1} from '../../utils/allImgs'
   import InfoComponent from '../InfoComponent'
   import "./aboutUs.css"
+  import { useLocation } from "react-router-dom";
+
 
 
 const  AboutUs=()=> {
+
+    const routePath = useLocation();
+    const onTop = () => {
+      window.scrollTo(0, 4);
+    };
+    useEffect(() => {
+      onTop();
+    }, [routePath]);
+  
+
   return (
       <>
       <div className="about-top-pad">

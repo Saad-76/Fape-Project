@@ -1,7 +1,7 @@
 
 
 
-import React from 'react';
+import {React, useEffect} from "react";
 import MindSectionInfo from "../mindSectionInfo/mindSectionInfo"
 import {
 
@@ -12,9 +12,18 @@ import {
   import Breadcumb from '../../components/Breadcumb'
   import "./metaverse.css"
   import ComNav from "../compNav/comNav"
+  import { useLocation } from "react-router-dom";
+
 
 
 const  Metaverse=()=> {
+  const routePath = useLocation();
+  const onTop = () => {
+    window.scrollTo(0, 4);
+  }
+  useEffect(() => {
+    onTop()
+  }, [routePath]);
   return (
       <>
           <ComNav/>

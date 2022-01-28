@@ -36,6 +36,7 @@ link="/vision"
 button="Read More"
 
 />
+
 </div>
 <div className="col-md-4">
 <MindMapCardsInfo 
