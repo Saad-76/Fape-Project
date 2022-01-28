@@ -2,12 +2,13 @@ import React from 'react';
 import MindMapCardsInfo from "../mindMapCardsInfo/mindMapCardsInfo"
 import InfoComponent from '../InfoComponent'
 import Image1 from "../../assets/img/test-img/download.png"
+import "./mindMapCards.css"
 
 const  MindMapCards=()=> {
   return (
       <>
 
-
+<div className="mindmap-section-padding-top">
 <InfoComponent
               titleSm='  THE BEGINNING'
               titleLg='THE MIND MAP 
@@ -23,10 +24,11 @@ const  MindMapCards=()=> {
               
               '
             />
+            </div>
 
       <div className="container">
 <div className="row">
-<div className="col-md-4">
+<div className="col-md-4  cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 heading="VISION & VALUES"
@@ -38,7 +40,7 @@ button="Read More"
 />
 
 </div>
-<div className="col-md-4">
+<div className="col-md-4 cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 
@@ -51,7 +53,7 @@ button="Read More"
 
 />
 </div>
-<div className="col-md-4">
+<div className="col-md-4 cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 
@@ -63,7 +65,7 @@ button="Read More"
 
 />
 </div>
-<div className="col-md-4">
+<div className="col-md-4 cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 
@@ -74,7 +76,7 @@ button="Read More"
 
 />
 </div>
-<div className="col-md-4">
+<div className="col-md-4 cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 
@@ -87,7 +89,7 @@ button="Read More"
 
 />
 </div>
-<div className="col-md-4">
+<div className="col-md-4 cards-margin-top">
 <MindMapCardsInfo 
 iconImg={<img src={Image1}  height='150px'/>}
 

@@ -15,6 +15,7 @@ function ListedItemsContainer(){
     <section className="features section-padding-0-100 " id="#team">
 
         <div className="container">
+          <div className="team-section-padding-top">
             <InfoComponent
               titleSm='The art team behind FAPE SOCIAL CLUB has enjoyed success in the film industry, fashion 
               and gaming.'
@@ -22,6 +23,7 @@ function ListedItemsContainer(){
               text='They’ve 
               worked with Marvel, Titan and Warner Bros among others.'
             />
+            </div>
 
             <div className="row align-items-center">
             	{ListedItemsData && ListedItemsData.map((item , i) => (

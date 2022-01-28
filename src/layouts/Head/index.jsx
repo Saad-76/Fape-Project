@@ -52,14 +52,32 @@ function Head({ Title }) {
   }, [anchorId]);
 
 
+// --------------------------------------------
+const [navbar, setNavbar] = useState(false)
 
-  
+const changeBackground = () => {
+  console.log(window.scrollY);
+  if (window.scrollY >= 20.66666793823242 ) {
+    setNavbar(true)
+  } else {
+    setNavbar(false)
+  }
+}
+
+useEffect(() => {
+  changeBackground()
+  window.addEventListener("scroll", changeBackground);
+
+})
+
 
   return (
     <>
       {/* <Preloader Title={Title} /> */}
-      <nav
-        className="navbar navbar-expand-lg background-color  navbar-white  fixed-top"
+     <div className= {navbar ? ("background-color") : ("")}>
+
+      <nav 
+        className= " navbar navbar-expand-lg background-color  navbar-white  fixed-top"
         id="banner"
       >
         <div className="container">
@@ -122,6 +140,8 @@ function Head({ Title }) {
           </div>
         </div>
       </nav>
+</div>
+
 
       <div>
         <section id="home" ref={homeRef}>

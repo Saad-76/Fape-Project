@@ -1,6 +1,6 @@
 {
   "homepage": "https://fape.thegamestormstudios.com",
-  "name": "profileapp",
+    "name": "profileapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

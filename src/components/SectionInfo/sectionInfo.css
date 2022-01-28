@@ -33,3 +33,14 @@
 .image-section-style img{
     border-radius: 12px;
 }
+
+@media (max-width: 992px) {
+
+.content-section-style{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;}
+
+}

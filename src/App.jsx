@@ -62,7 +62,7 @@ const App = () => {
           href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         />
       </Helmet>
-      <Router>
+      {/* <Router> */}
         <Switch>
           <Route exact path="/home" component={Home} />
           <Route path="/home/:anchorId" component={Home} />
@@ -86,7 +86,7 @@ const App = () => {
           {/* <Route path="/login" component={Login} /> */}
           {/* <Route path="/signup" component={SignUp} /> */}
         </Switch>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 };

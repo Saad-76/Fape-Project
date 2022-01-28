@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 const  MindMapCardsInfo=({iconImg, heading, contentOne,button, link})=> {
   return (
       <>
+      {/* <div className="cards-margin"> */}
       <div className="card-style">
         <div className="icon-image">{iconImg}</div>
      {/* <img src={iconImg} width="40" alt="" /> */}
@@ -15,6 +16,7 @@ const  MindMapCardsInfo=({iconImg, heading, contentOne,button, link})=> {
 <NavLink className="btn more-btn" to={link}>{button}</NavLink>
 </div>
       </div>
+      {/* </div> */}
 
       </>
   );

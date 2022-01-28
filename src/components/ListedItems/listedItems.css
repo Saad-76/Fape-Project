@@ -39,6 +39,10 @@
     line-height: 1.43;
     color: #fff;
 }
+.team-section-padding-top{
+    padding-top: 90px;
+}
+
 .owner-info{
     display: flex;
     align-items: center;
