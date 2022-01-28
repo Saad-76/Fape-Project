@@ -10,6 +10,13 @@
     margin: 0;
 
 }
+
+
+
+
+
+
+
 .lh-55px{line-height: 55px}
 .navbar-nav .nav-item .nav-link{
     padding: 20px 12px;
@@ -37,6 +44,13 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     animation-name: fadeInDown;
     background-color: rgb(215, 223, 239);
     
+}
+.header{
+    background-color: transparent;
+}
+  
+.colorChange{
+    background-color: rgb(180, 4, 4);
 }
 
 @-webkit-keyframes fadeInDown {

@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState}  from "react";
 import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -31,10 +31,22 @@ function Head({ Title }) {
     document.getElementById("mySidebar").style.display = "none";
   };
 
+// ---------------------------background-header-------------------------------------
+const [colorChange, setColorchange] = useState(false);
+const changeNavbarColor = () =>{
+   if(window.scrollY >= 20){
+     setColorchange(true);
+   }
+   else{
+     setColorchange(false);
+   }
+};
+window.addEventListener('scroll', changeNavbarColor);
 
   return (
     <>
       {/* <Preloader Title={Title} /> */}
+      <div className= {colorChange ? ' colorChange' : 'header'}>
       <nav
         className="navbar navbar-expand-lg navbar-white  fixed-top"
         id="banner"
@@ -132,7 +144,7 @@ Close                </button>
           </div>
         </div>
       </nav>
-
+</div>
 
       <div>
         <section id="home">
