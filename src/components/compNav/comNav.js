@@ -55,7 +55,7 @@ function ComNav({ Title }) {
                 </button>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/home/home">
+                <NavLink className="nav-link" to="/home/homey">
                   Home
                 </NavLink>
               </li>

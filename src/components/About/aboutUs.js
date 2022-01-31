@@ -7,6 +7,7 @@ import {
   import InfoComponent from '../InfoComponent'
   import "./aboutUs.css"
   import { useLocation } from "react-router-dom";
+  import BackgroundVideoA from "../../assets/img/test-img/BackgroundVideo.mp4"
 
 
 
@@ -37,7 +38,13 @@ const  AboutUs=()=> {
             <div className="about-content-pad">
 <SectionInfo
 // topHead='About Us'
-img={<img src={ListedItemsArtwork1}  height='150px'/>}
+video={    <video
+  className="video_section-style"
+  src={BackgroundVideoA}
+  loop={true}
+  muted={true}
+  autoPlay={true}
+/>}
 // titleBg='About page'
 content=' A collection of 8888 avatars that give you membership access to members-only exclusive 
 benefits and sets up FAPES as next-generation fashion leaders.It starts with exclusive street 

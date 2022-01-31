@@ -1,6 +1,6 @@
 import {
 
-	// ListedItems
+	ListedItems,
 	ListedItemsArtwork1,
 	ListedItemsArtwork2,
 	ListedItemsArtwork3,
@@ -14,61 +14,72 @@ import {
 	ListedItemsAuthors8,
 	ListedItemsAuthors6,
 
+	Ren32,
+	Ren33,
+	Ren34,
+	Ren36,
+	Ren46,
+	Ren47,
+	Ren49,
+	Ren55,
+
 
 } from '../../utils/allImgs'
 
+// import {} from "../../"
+ 
 export const ListedItemsData = [
 	{
-		imgBig:ListedItemsArtwork1,
+		imgBig:Ren32,
 		imgSm:ListedItemsAuthors2,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork2,
+		imgBig:Ren55,
 		imgSm:ListedItemsAuthors3,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork3,
+		imgBig:Ren34,
 		imgSm:ListedItemsAuthors8,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork4,
+		imgBig:Ren36,
 		imgSm:ListedItemsAuthors6,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork5,
+		imgBig:Ren46,
 		imgSm:ListedItemsAuthors2,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork6,
+		imgBig:Ren47,
 		imgSm:ListedItemsAuthors3,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork7,
+		imgBig:Ren49,
 		imgSm:ListedItemsAuthors8,
 		title:'@Smith Wright',
 		price:0.081,
 		bid:0.081,
 	},
 	{
-		imgBig:ListedItemsArtwork8,
+		imgBig:Ren33,
 		imgSm:ListedItemsAuthors6,
 		title:'@Smith Wright',
 		price:0.081,

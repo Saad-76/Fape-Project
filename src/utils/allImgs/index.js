@@ -124,6 +124,20 @@ import ProfileProfileheader from "../../assets/img/art-work/profile-header.jpg"
 import ProfileAuthors2 from "../../assets/img/authors/2.png"
 import ProfileArtworkfire from "../../assets/img/art-work/fire.png"
 
+
+
+import Ren32 from "../../assets/img/test-img/ren_0032.png"
+import  Ren33 from "../../assets/img/test-img/ren_033.png"
+import Ren34 from "../../assets/img/test-img/ren_034.png"
+import Ren36 from "../../assets/img/test-img/ren_036.png"
+import Ren46 from "../../assets/img/test-img/ren_46.png"
+import Ren47 from "../../assets/img/test-img/ren_47.png"
+import Ren49 from "../../assets/img/test-img/ren_49.png"
+import Ren55 from "../../assets/img/test-img/ren_55.png"
+
+
+
+
 export {
 
 	NavbarLogo,
@@ -251,5 +265,17 @@ export {
 
 	ProfileProfileheader,
 	ProfileAuthors2,
-	ProfileArtworkfire
+	ProfileArtworkfire,
+
+
+
+	Ren32,
+	Ren33,
+	Ren34,
+	Ren36,
+	Ren46,
+	Ren47,
+	Ren49,
+	Ren55,
+
 }

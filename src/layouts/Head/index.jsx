@@ -43,7 +43,7 @@ function Head({ Title }) {
   };
 
   useEffect(() => {
-    if (anchorId === "home") homeRef.current.scrollIntoView();
+    if (anchorId === "homey") homeRef.current.scrollIntoView();
     if (anchorId === "manifesto") manifestoRef.current.scrollIntoView();
     if (anchorId === "team") teamRef.current.scrollIntoView();
     if (anchorId === "mindmap") mindmapRef.current.scrollIntoView();
@@ -53,28 +53,28 @@ function Head({ Title }) {
 
 
 // --------------------------------------------
-const [navbar, setNavbar] = useState(false)
+// const [navbar, setNavbar] = useState(false)
 
-const changeBackground = () => {
-  console.log(window.scrollY);
-  if (window.scrollY >= 20.66666793823242 ) {
-    setNavbar(true)
-  } else {
-    setNavbar(false)
-  }
-}
+// const changeBackground = () => {
+//   console.log(window.scrollY);
+//   if (window.scrollY >= 20.66666793823242 ) {
+//     setNavbar(true)
+//   } else {
+//     setNavbar(false)
+//   }
+// }
 
-useEffect(() => {
-  changeBackground()
-  window.addEventListener("scroll", changeBackground);
+// useEffect(() => {
+//   changeBackground()
+//   window.addEventListener("scroll", changeBackground);
 
-})
+// })
 
 
   return (
     <>
       {/* <Preloader Title={Title} /> */}
-     <div className= {navbar ? ("background-color") : ("")}>
+     {/* <div className= {navbar ? ("background-color") : ("")}> */}
 
       <nav 
         className= " navbar navbar-expand-lg background-color  navbar-white  fixed-top"
@@ -140,7 +140,7 @@ useEffect(() => {
           </div>
         </div>
       </nav>
-</div>
+{/* </div> */}
 
 
       <div>

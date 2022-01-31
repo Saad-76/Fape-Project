@@ -729,7 +729,9 @@ ol {
     .hero-section img{
         max-width: 170%;
         margin-left: -100px;
-        margin-top: 60px;
+        /* margin-top: 60px; */
+        margin-top: 30%;
+
         
     }
     .hero-section .curved{

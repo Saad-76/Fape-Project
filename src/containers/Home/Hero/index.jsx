@@ -1,10 +1,28 @@
+import Image from "../../../assets/img/test-img/ren_033.png"
+import Video from "../../../assets/img/test-img/BackgroundVideo.mp4"
 const HeroContainer = () => {
   return (
+
+  <>
+    <video
+    className="Home-video_section-style"
+    src={Video}
+    loop={true}
+    muted={true}
+    autoPlay={true}
+  />  
     <section className="hero-section moving section-padding" id="home">
-      <div className="moving-bg"></div>
+      {/* <div className="moving-bg "></div> */}
+
+
       <div className="hero-section-content">
         <div className="container ">
           <div className="row align-items-center">
+         
+            </div>
+            <div className="col-lg-6">
+              <img src={Image} alt="" height="500px" width="500px"/>
+            </div>
             <div className="col-12 col-lg-6 col-md-12">
               <div className="welcome-content">
                 <div className="promo-section">
@@ -29,12 +47,11 @@ benefits and sets up FAPES as next-generation fashion leaders.
                   </button>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6"></div>
           </div>
         </div>
       </div>
     </section>
+    </>
   );
 };
 
